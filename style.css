@@ -3,7 +3,7 @@ html {
 }
 body {
     margin: 0 auto; 
-    font-family: 'Noto Serif HK', serif;
+    font-family: 'Alumni Sans Pinstripe', sans-serif;
     background-color: black;
     color: #fff;
 
@@ -27,8 +27,7 @@ img {
     position: absolute;
     justify-content: center;
     align-items: flex-end;
-
-    font-size:2.2rem;
+    font-size:3rem;
 
     
 }
