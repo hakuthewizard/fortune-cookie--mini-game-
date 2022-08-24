@@ -21,13 +21,15 @@ button {
 }
 img {
     z-index: -1;
+    cursor:pointer;
 }
 #theFortune {
     display:flex;
     position: absolute;
     justify-content: center;
     align-items: flex-end;
-    font-size:3rem;
-
+    font-size:1.5rem;
+    max-width: 50vw;
+    transition:0.7s ease-out;
     
 }

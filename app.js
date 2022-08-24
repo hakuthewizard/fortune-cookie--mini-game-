@@ -31,9 +31,10 @@ let timeout;
 
 function getFortune () {
 
-theFortune.style.backgroundColor = "white"
-theFortune.style.color = "rgb(0, 0, 0)"
-theFortune.style.fontSize = "4rem"
+theFortune.style.backgroundColor = "bisque"
+theFortune.style.color = "black"
+theFortune.style.fontSize = "3rem"
+theFortune.style.boxShadow ="-8px -8px white"
 theFortune.style.transform = "translateY(1.5rem)"
 shuffle(loading);
 theFortune.textContent = loading[0];
