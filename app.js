@@ -54,6 +54,7 @@ const crackCookie = function() {
   if (fortuneCookie.dataset.image == "one") {
     fortuneCookie.src = "cracked.png";
     fortuneCookie.dataset.image = "two";
+
     return
   } }
 //Helper function that uses Fisher-Yates algorithm-> https://stackoverflow.com/questions/2450954/how-to-randomize-shuffle-a-javascript-array/2450976#2450976
