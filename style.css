@@ -3,21 +3,20 @@ html {
 }
 body {
     margin: 0 auto; 
-    font-family: 'Alumni Sans Pinstripe', sans-serif;
-    background-color: black;
+    font-family: 'EB Garamond', serif;
+    background-color: #111;
     color: #fff;
 
 }
 #container {
     display: flex;
+    flex-direction:column;
     justify-content: center;
     align-items: center;
-    
     width:100vw;
-    height: 100vh;
 }
 button {
-    z-index: 1
+    z-index: 1;
 }
 img {
     z-index: -1;
@@ -25,11 +24,15 @@ img {
 }
 #theFortune {
     display:flex;
-    position: absolute;
     justify-content: center;
-    align-items: flex-end;
+    align-items: center;
     font-size:1.5rem;
-    max-width: 50vw;
     transition:0.7s ease-out;
     
+}
+.hide{
+    display:none;
+}
+#fortuneCookie {
+    margin:1rem;
 }

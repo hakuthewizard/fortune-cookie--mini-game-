@@ -21,7 +21,7 @@ const container =document.querySelector("#container");
 const fortuneButton = document.querySelector("#fortuneButton");
 const theFortune = document.querySelector("#theFortune");
 
-
+const buttonHeader = document.getElementById("firstheader")
 
 fortuneButton.addEventListener('click', getFortune);
 
@@ -34,8 +34,8 @@ function getFortune () {
 theFortune.style.backgroundColor = "bisque"
 theFortune.style.color = "black"
 theFortune.style.fontSize = "3rem"
-theFortune.style.boxShadow ="-8px -8px white"
 theFortune.style.transform = "translateY(1.5rem)"
+buttonHeader.classList.add('hide')
 shuffle(loading);
 theFortune.textContent = loading[0];
 
